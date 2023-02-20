@@ -8,7 +8,7 @@ body{
 header{
     background-color:#f4f4f4;
     padding: 15px;
-    box-shadow: 0 0 3px black;
+  
 }
 header li {
     display: inline;
@@ -31,5 +31,38 @@ header ul #online a {
     background-color: #ff600a;
     float: right;
     position: relative;
-    top: -10px;
+    top: -15px;
+    transition:.3s ease ;
 }
+header ul #online a:hover {
+  background-color:black;
+}
+
+header li img {
+    width: 190px;
+    float: left;
+    margin-top: -20px;
+}
+
+.active{
+    color:#ff600a;
+}
+.container{
+    display: flex;
+    position: fixed;
+    background-color:#ff600a;
+    padding: 5px;
+   top: 5rem;
+
+}
+.container a{
+    color: white;
+}
+.container a:hover{
+    color: black;
+}
+
+
+
+
+
